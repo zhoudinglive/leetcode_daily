@@ -11,6 +11,6 @@ class Solution {
 public:
 	vector<int> sortArrayByParity(vector<int>& A) {	
 		sort(A.begin(), A.end(), cmp);
-        return A;
+        	return A;
 	}
 };
