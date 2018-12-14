@@ -8,9 +8,9 @@ bool cmp(int a, int b) {
 }
 
 class Solution {
-public:
-	vector<int> sortArrayByParity(vector<int>& A) {	
-		sort(A.begin(), A.end(), cmp);
-        	return A;
-	}
+	public:
+		vector<int> sortArrayByParity(vector<int>& A) {	
+			sort(A.begin(), A.end(), cmp);
+			return A;
+		}
 };

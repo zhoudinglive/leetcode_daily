@@ -3,8 +3,7 @@
 #include<vector>
 using namespace std;
 
-class Solution
-{
+class Solution {
   public:
     vector<vector<int> > flipAndInvertImage(vector<vector<int> > &A) {
         vector<vector<int> > B;
