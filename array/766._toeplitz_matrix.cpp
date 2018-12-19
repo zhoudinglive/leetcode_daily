@@ -11,7 +11,7 @@ class Solution{
                 for(int j = 0; j < matrix[i].size(); ++j) {
                     bool flag = sub_check(matrix, i, j);
                     if(!flag) {
-                        return flase;
+                        return false;
                     }
                 }
             } else {
