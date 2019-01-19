@@ -6,10 +6,11 @@ using namespace std;
 class Solution {
   public:
     int missingNumber(vector<int> &nums) {
-        int re = 0;
-        for(int i = 0; i < nums.size() - 1; ++i) {
-            re += nums[i] - i - 1;
+        int len = nums.size();
+        int sum = len * (len + 1) / 2;
+        for(int i = 0; i < len; ++i) {
+            sum -= nums[i];
         }
-        return abs(re);
+        return sum;
     }
 };
