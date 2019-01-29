@@ -11,6 +11,7 @@ class Solution {
         for(int i = 0; i < nums.size(); ++i) {
             dp[i] = 1;
         }
+        
         for(int i = 1; i < nums.size(); ++i) {
             if(nums[i] > nums[i - 1]) {
                 dp[i] = dp[i - 1] + 1;
