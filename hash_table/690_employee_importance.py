@@ -4,7 +4,7 @@ class Solution:
         :type employees: Employee
         :type id: int
         :rtype: int
-        """
+        """ 
         self.sum = 0
         self.emp_dict = {}
         for e in employees:
