@@ -1,3 +1,4 @@
+import collections
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         res = collections.Counter(A[0])
