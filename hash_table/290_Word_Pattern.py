@@ -17,7 +17,7 @@ class Solution:
             for k, v in words_dict.items():
                 if len(v) > 1 or len(v) == 0:
                     return False
-            
+             
             for k1, v1 in words_dict.items():
                 for k2, v2 in words_dict.items():
                     if k1 == k2:
