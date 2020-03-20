@@ -16,7 +16,7 @@ public:
             if(current->next) {
                 ListNode *next = current->next;
                 int next_larger_val = 0;
-                while(next && next->val <= curr_val) {
+                while(next && next->val <=\ curr_val) {
                     next = next->next;
                 }
                 if(next) {
